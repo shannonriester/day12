@@ -13,10 +13,20 @@ var data = {
   },
 };
 
-window.addEventListener('hashchange', function(){
+window.addEventListener('hashchange', function(evt){
   var dataToRender = location.hash.slice(1);
   renderContent(dataToRender);
+  console.log(evt);
 });
+
+var anchor = document.querySelectorAll('a');
+
+var clickHandler = function(evt){
+};
+
+// anchor.addEventListener('hashchange', function(evt){
+//   // function clickHandler(console.log(evt.target));
+// });
 
 
 function renderContent(colorContent) {
@@ -24,4 +34,5 @@ function renderContent(colorContent) {
   console.log(data[colorContent].title);
   document.querySelector('#content main').textContent = data[colorContent].body;
 }
+
 renderContent('red');
