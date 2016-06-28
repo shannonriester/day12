@@ -24,9 +24,10 @@ var anchor = document.querySelectorAll('a');
 var clickHandler = function(evt){
 };
 
-// anchor.addEventListener('hashchange', function(evt){
-//   // function clickHandler(console.log(evt.target));
-// });
+anchor.addEventListener('hashchange', function(evt){
+  console.log(evt);
+    //get location.hash from this poingt
+});
 
 
 function renderContent(colorContent) {
