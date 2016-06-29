@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #EEEEEE;
+  color: #414141; }
+
+h1 {
+  color: #29282D; }
+
+#banner {
+  background: url("https://dl.dropboxusercontent.com/u/19411356/day12/EtsyBanner.jpg");
+  height: 10em;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#content h2 {
+  margin-top: 7em;
+  padding: 0; }
+#content p {
+  margin: 0;
+  padding: 0; }
+
+footer {
+  background: #4B484F;
+  color: #EEEEEE; }
+
+/*# sourceMappingURL=main.css.map */
