@@ -19,16 +19,6 @@ window.addEventListener('hashchange', function(evt){
   console.log(evt);
 });
 
-var anchor = document.querySelectorAll('a');
-
-var clickHandler = function(evt){
-};
-
-anchor.addEventListener('hashchange', function(evt){
-  console.log(evt);
-    //get location.hash from this poingt
-});
-
 
 function renderContent(colorContent) {
   document.querySelector('#content h1').textContent = data[colorContent].title;
